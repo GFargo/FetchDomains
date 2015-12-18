@@ -1,0 +1,36 @@
+{
+  "name": "FetchDomains",
+  "version": "0.1.0",
+  "preferGlobal": true,
+  "description": "Tool used to fetch information on large lists of domains",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "FetchDomains": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GFargo/FetchDomains.git"
+  },
+  "author": "GFargo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GFargo/FetchDomains/issues"
+  },
+  "homepage": "https://github.com/GFargo/FetchDomains",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "email": "^0.2.6",
+    "express": "^4.13.3",
+    "nano": "^6.1.5",
+    "node-couchdb": "^0.4.0",
+    "node-xwhois": "^1.0.2",
+    "ssh2": "^0.4.12",
+    "ssh2shell": "^1.4.1",
+    "traceur": "0.0.93",
+    "traceur-source-maps": "^1.0.6",
+    "underscore": "^1.8.3",
+    "whois": "^2.1.5"
+  }
+}
