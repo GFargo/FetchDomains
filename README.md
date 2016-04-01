@@ -1,6 +1,8 @@
 # Fetch - Node Utility
 
-This is a global Node command line tool used for collecting information on massive sets of information.
+This is a global Node command line tool used for aggregating information from large datasets.  The aggregated information is then stored in a database _(currently CouchDB)_ to be utilized later.
+
+Currently the functionality is limited to fetching information about Domain names.
 
 
 #### FetchDomains
