@@ -4,7 +4,9 @@
   "preferGlobal": true,
   "description": "Tool used to fetch information on large lists of domains",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "bin": {
     "FetchDomains": "index.js"
@@ -30,9 +32,11 @@
     "request": "^2.67.0",
     "ssh2": "^0.4.12",
     "ssh2shell": "^1.4.1",
-    "traceur": "0.0.93",
+    "traceur": "0.0.103",
     "traceur-source-maps": "^1.0.6",
     "underscore": "^1.8.3",
-    "whois": "^2.1.5"
-  }
+    "whois": "^2.1.5",
+    "snyk": "^1.104.2"
+  },
+  "snyk": true
 }
